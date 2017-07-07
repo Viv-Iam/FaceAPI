@@ -22,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        Button button1 = (Button) findViewById(R.id.button1);
-//        button1.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
+        Button button1 = (Button) findViewById(R.id.button1);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 //                Intent gallIntent = new Intent(Intent.ACTION_GET_CONTENT);
 //                gallIntent.setType("image/*");
 //                startActivityForResult(Intent.createChooser(gallIntent, "Select Picture"), PICK_IMAGE);
